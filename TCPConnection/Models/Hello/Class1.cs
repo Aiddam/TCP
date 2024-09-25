@@ -19,8 +19,13 @@ public class MyCollection : IEnumerable<string>
         }
     }
 
+
+
+
+
     IEnumerator IEnumerable.GetEnumerator()
     {
+        Console.WriteLine(22222222);
         return this.GetEnumerator();
     }
 }
